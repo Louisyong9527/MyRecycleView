@@ -8,8 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import com.jcodecraeer.xrecyclerview.ProgressStyle;
-import com.jcodecraeer.xrecyclerview.XRecyclerView;
+import com.fnconn.code.ProgressStyle;
+import com.fnconn.code.XRecyclerView;
 
 import java.util.ArrayList;
 

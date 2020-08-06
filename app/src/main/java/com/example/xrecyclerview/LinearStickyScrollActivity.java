@@ -7,9 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 
-import com.jcodecraeer.xrecyclerview.ProgressStyle;
-import com.jcodecraeer.xrecyclerview.StickyScrollLinearLayout;
-import com.jcodecraeer.xrecyclerview.XRecyclerView;
+import com.fnconn.code.ProgressStyle;
+import com.fnconn.code.StickyScrollLinearLayout;
+import com.fnconn.code.XRecyclerView;
 
 import java.util.ArrayList;
 
