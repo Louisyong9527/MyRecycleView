@@ -309,11 +309,11 @@ public class XRecyclerView extends RecyclerView {
 
     @Override
     public void setAdapter(Adapter adapter) {
-        mWrapAdapter = new WrapAdapter(adapter);
-        super.setAdapter(mWrapAdapter);
         if (adapter.hasObservers()) {
             adapter.unregisterAdapterDataObserver(mDataObserver);
         }
+        mWrapAdapter = new WrapAdapter(adapter);
+        super.setAdapter(mWrapAdapter);
         adapter.registerAdapterDataObserver(mDataObserver);
         mDataObserver.onChanged();
     }
